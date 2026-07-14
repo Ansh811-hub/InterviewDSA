@@ -1,5 +1,4 @@
-package Arrays;
-
+package OptimalApproach;
 import java.util.Scanner;
 
 public class BuyandSellStock {
