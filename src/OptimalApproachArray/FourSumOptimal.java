@@ -1,4 +1,4 @@
-package OptimalApproach;
+package OptimalApproachArray;
 
 import java.util.Scanner;
 
