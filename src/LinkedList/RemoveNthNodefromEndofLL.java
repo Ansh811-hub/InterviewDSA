@@ -1,6 +1,5 @@
 package LinkedList;
 
-
 class ListNode4 {
     int val;
     ListNode next;
@@ -35,5 +34,18 @@ public class RemoveNthNodefromEndofLL {
 
             temp.next = temp.next.next;
             return head;
+        }
+        public static void main(String[] args) {
+            ListNode head = new ListNode(1);
+            head.next = new ListNode(2);
+            head.next.next = new ListNode(3);
+            head.next.next.next = new ListNode(4);
+
+            RemoveNthNodefromEndofLL list = new RemoveNthNodefromEndofLL();
+            head = list.removeNthFromEnd(head, 1);
+            while(head != null){
+                System.out.println(head.val);
+                head = head.next;
+            }
         }
 }
