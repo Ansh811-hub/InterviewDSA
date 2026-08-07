@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Searching;
 import java.util.Scanner;
 public class Searchin2DArray1 {
 

@@ -17,6 +17,3 @@ public class SmallestDivisibleDigitProduct1 {
             }
         }
     }
-
-
-}

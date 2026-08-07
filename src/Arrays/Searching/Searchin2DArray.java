@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Searching;
 
 public class Searchin2DArray {
     public boolean searchMatrix(int[][] matrix, int target) {

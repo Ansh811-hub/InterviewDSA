@@ -1,20 +1,32 @@
 package Sorting;
 
-import java.util.Scanner;
+import java.util.Arrays;
 
 public class InsertionSort {
-    public static void sort(int[] arr){
 
-    }
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the size of the array");
-        int n = sc.nextInt();
-        int[] arr = new int[n];
-        System.out.println("Enter the elements of the array");
-        for (int i = 0; i < n; i++) {
-            arr[i] = sc.nextInt();
+    public static void insertionSort(int[] arr) {
+        int n = arr.length;
+
+        // Traverse from second element
+        for (int i = 1; i < n; i++) {
+            int key = arr[i];
+            int j = i - 1;
+
+            // Shift elements greater than key to one position ahead
+            while (j >= 0 && arr[j] > key) {
+                arr[j + 1] = arr[j];
+                j--;
+            }
+
+            // Insert the key at its correct position
+            arr[j + 1] = key;
         }
-        sort(arr);
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {12, 11, 13, 5, 6};
+        System.out.println("Original Array: " + Arrays.toString(arr));
+        insertionSort(arr);
+        System.out.println("Sorted Array: " + Arrays.toString(arr));
     }
 }
