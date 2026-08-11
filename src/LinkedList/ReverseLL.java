@@ -54,7 +54,7 @@ public class ReverseLL {
 
         // Print reversed list
         while (huh != null) {
-            System.out.println(huh.val);
+            System.out.println(huh.data);
             huh = huh.next;
         }
     }
