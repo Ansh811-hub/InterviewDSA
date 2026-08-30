@@ -1,4 +1,4 @@
-package OptimalApproachArray;
+package Arrays.OptimalApproachArray;
 
 public class LeftRightDifference {
     public int[] leftRightDifference(int[] nums) {

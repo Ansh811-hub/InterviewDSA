@@ -1,9 +1,8 @@
-package OptimalApproachArray;
+package Arrays.OptimalApproachArray;
 
 import java.util.*;
 
 public class Threesum2 {
-
     public static int[] three(int[] nums) {
         int target = 4;
 

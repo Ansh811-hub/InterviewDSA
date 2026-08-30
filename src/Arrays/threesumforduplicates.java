@@ -1,7 +1,5 @@
 package Arrays;
-
 import java.util.*;
-
 public class threesumforduplicates {
 
     // this is for question containing duplicates

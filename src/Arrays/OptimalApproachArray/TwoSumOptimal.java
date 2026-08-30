@@ -1,4 +1,4 @@
-package OptimalApproachArray;
+package Arrays.OptimalApproachArray;
 
 import java.util.*;
 public class TwoSumOptimal {
